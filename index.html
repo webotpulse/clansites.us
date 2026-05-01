@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ClanSites — Professional Web Design That Converts</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/6.6.6/css/flag-icons.min.css" />
+  <meta name="description" content="ClanSites builds fast, clean, conversion-focused websites for businesses. Get more calls, more leads, more sales — starting today." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="navbar">
+    <div class="nav-inner">
+      <div class="logo">
+        <div class="logo-icon">
+          <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="100" height="100" rx="16" fill="#0066FF"/>
+            <line x1="52" y1="18" x2="52" y2="82" stroke="white" stroke-width="3" stroke-linecap="round"/>
+            <path d="M68 24 L36 50 L68 76" stroke="white" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+          </svg>
+        </div>
+        <span class="logo-text">ClanSites</span>
+      </div>
+      <div class="nav-links">
+        <a href="#services">Services</a>
+        <a href="#trust">Reviews</a>
+        <a href="case-studies.html">Case Studies</a>
+        <a href="blog.html">Blog</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <a href="#contact" class="btn btn-nav">Get Started</a>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#services">Services</a>
+      <a href="#trust">Reviews</a>
+      <a href="case-studies.html">Case Studies</a>
+      <a href="blog.html">Blog</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+      <a href="#contact" class="btn btn-primary" style="text-align:center">Get Started</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <canvas id="hero3d"></canvas>
+    <div class="hero-content">
+      <div class="hero-badge">⚡ Fast Delivery · High Conversion · Mobile-First</div>
+      <h1 class="hero-title">Websites That <span class="gradient-text">Convert Visitors</span> Into Customers</h1>
+      <p class="hero-sub">We build clean, fast, professional websites — designed to get you more calls, more leads, and more sales. <strong>Every single day.</strong></p>
+      <div class="hero-ctas">
+        <a href="tel:+923001234567" class="btn btn-primary" id="hero-call">Call Now</a>
+        <a href="https://wa.me/923001234567" target="_blank" class="btn btn-whatsapp" id="hero-whatsapp">WhatsApp Now</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><span>150+</span><p>Sites Launched</p></div>
+        <div class="stat"><span>98%</span><p>Client Satisfaction</p></div>
+        <div class="stat"><span>3x</span><p>Avg. Lead Growth</p></div>
+      </div>
+    </div>
+    <div class="hero-3d-wrapper">
+      <div class="card-3d" id="card3d">
+        <div class="card-3d-face front">
+          <div class="card-logo-big">
+            <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect width="100" height="100" rx="20" fill="#0066FF"/>
+              <line x1="52" y1="14" x2="52" y2="86" stroke="white" stroke-width="3.5" stroke-linecap="round"/>
+              <path d="M70 20 L34 50 L70 80" stroke="white" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+            </svg>
+          </div>
+          <p class="card-label">Drag to spin</p>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-hint">↓ Scroll to explore</div>
+  </section>
+
+  <!-- TRUST -->
+  <section class="trust" id="trust">
+    <div class="container">
+      <div class="section-label">⭐ Trusted by Businesses</div>
+      <h2 class="section-title">What Our Clients Say</h2>
+      <div class="stars-row">
+        <span class="big-rating">5.0</span>
+        <div>
+          <div class="stars">★★★★★</div>
+          <p>Based on 60+ verified reviews</p>
+        </div>
+      </div>
+      <div class="reviews-grid">
+        <div class="review-card">
+          <div class="reviewer-top">
+            <div class="avatar">AK</div>
+            <div>
+              <strong>Ahmed Khan</strong>
+              <span>Restaurant Owner</span>
+            </div>
+          </div>
+          <div class="stars-sm">★★★★★</div>
+          <p>"ClanSites built our site in 3 days. We started getting calls immediately. Absolutely worth every rupee!"</p>
+        </div>
+        <div class="review-card">
+          <div class="reviewer-top">
+            <div class="avatar">SR</div>
+            <div>
+              <strong>Sara Raza</strong>
+              <span>Clinic Manager</span>
+            </div>
+          </div>
+          <div class="stars-sm">★★★★★</div>
+          <p>"Professional, fast, and they understood exactly what we needed. Our appointments tripled in the first month."</p>
+        </div>
+        <div class="review-card">
+          <div class="reviewer-top">
+            <div class="avatar">FM</div>
+            <div>
+              <strong>Farhan Malik</strong>
+              <span>E-commerce Seller</span>
+            </div>
+          </div>
+          <div class="stars-sm">★★★★★</div>
+          <p>"Clean design, mobile-friendly, and loads super fast. My sales went up 40% after launching with ClanSites."</p>
+        </div>
+      </div>
+    </div>
+    <div class="floating-cubes" id="floatingCubes"></div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-label">🛠️ What We Build</div>
+      <h2 class="section-title">Our Services</h2>
+      <p class="section-sub">Everything you need to get online and start converting visitors into paying customers.</p>
+      <div class="services-grid">
+        <div class="service-card" data-tilt>
+          <div class="service-icon">🌐</div>
+          <h3>Business Websites</h3>
+          <p>Clean, fast sites that represent your brand and convert visitors into leads.</p>
+        </div>
+        <div class="service-card" data-tilt>
+          <div class="service-icon">🛒</div>
+          <h3>E-Commerce Stores</h3>
+          <p>Sell online 24/7 with a store built to drive purchases and repeat buyers.</p>
+        </div>
+        <div class="service-card" data-tilt>
+          <div class="service-icon">📱</div>
+          <h3>Mobile-First Design</h3>
+          <p>80% of users are on phones. Every site we build looks perfect on mobile.</p>
+        </div>
+        <div class="service-card" data-tilt>
+          <div class="service-icon">🔍</div>
+          <h3>SEO Optimization</h3>
+          <p>Get found on Google. We build with SEO baked in from day one.</p>
+        </div>
+        <div class="service-card" data-tilt>
+          <div class="service-icon">⚡</div>
+          <h3>Speed Optimization</h3>
+          <p>Fast sites rank higher and convert better. We obsess over load times.</p>
+        </div>
+        <div class="service-card" data-tilt>
+          <div class="service-icon">🔧</div>
+          <h3>Maintenance &amp; Support</h3>
+          <p>We don't disappear after launch. Ongoing support to keep you running.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="container about-inner">
+      <div class="about-visual">
+        <div class="about-3d-ring" id="aboutRing"></div>
+      </div>
+      <div class="about-text">
+        <div class="section-label">👋 Who We Are</div>
+        <h2 class="section-title" style="text-align:left">Built by People Who Care About Results</h2>
+        <p>At <strong>ClanSites</strong>, we don't build pretty websites for the sake of it. We build websites that <strong>actually work</strong> — bringing you calls, enquiries, and sales every single day.</p>
+        <p>Our team has launched 150+ sites across restaurants, clinics, retail, and service businesses. We know what converts, and we build exactly that — fast.</p>
+        <ul class="about-list">
+          <li>✅ Delivered in 3–5 business days</li>
+          <li>✅ Mobile-optimized by default</li>
+          <li>✅ No hidden costs</li>
+          <li>✅ Real results, real clients</li>
+        </ul>
+        <a href="#contact" class="btn btn-primary">Let's Build Yours →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="section-label">📍 Get In Touch</div>
+      <h2 class="section-title">Ready to Get Started?</h2>
+      <p class="section-sub">Fill out the form or reach us directly. We respond within hours.</p>
+      <div class="contact-inner">
+        <form class="contact-form" id="contactForm">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" placeholder="e.g. Ahmed Khan" required />
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone / WhatsApp</label>
+              <div class="phone-input-group">
+                <select id="countryCode" class="country-select" aria-label="Country code">
+                  <option value="+1">🇺🇸 +1</option>
+                  <option value="+44">🇬🇧 +44</option>
+                  <option value="+92" selected>🇵🇰 +92</option>
+                  <option value="+91">🇮🇳 +91</option>
+                  <option value="+971">🇦🇪 +971</option>
+                  <option value="+966">🇸🇦 +966</option>
+                  <option value="+61">🇦🇺 +61</option>
+                  <option value="+1-CA">🇨🇦 +1</option>
+                  <option value="+49">🇩🇪 +49</option>
+                  <option value="+33">🇫🇷 +33</option>
+                  <option value="+34">🇪🇸 +34</option>
+                  <option value="+39">🇮🇹 +39</option>
+                  <option value="+31">🇳🇱 +31</option>
+                  <option value="+65">🇸🇬 +65</option>
+                  <option value="+60">🇲🇾 +60</option>
+                  <option value="+880">🇧🇩 +880</option>
+                  <option value="+234">🇳🇬 +234</option>
+                  <option value="+254">🇰🇪 +254</option>
+                  <option value="+27">🇿🇦 +27</option>
+                  <option value="+55">🇧🇷 +55</option>
+                  <option value="+52">🇲🇽 +52</option>
+                  <option value="+81">🇯🇵 +81</option>
+                  <option value="+82">🇰🇷 +82</option>
+                  <option value="+86">🇨🇳 +86</option>
+                  <option value="+7">🇷🇺 +7</option>
+                  <option value="+90">🇹🇷 +90</option>
+                  <option value="+20">🇪🇬 +20</option>
+                </select>
+                <input type="tel" id="phone" placeholder="300 000 0000" required />
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="business">Business Type</label>
+            <input type="text" id="business" placeholder="e.g. Restaurant, Clinic, Shop..." required />
+          </div>
+          <div class="form-group">
+            <label for="message">What do you need?</label>
+            <textarea id="message" rows="4" placeholder="Tell us about your project..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" style="width:100%">🚀 Send My Request</button>
+        </form>
+        <div class="contact-info">
+          <div class="contact-block">
+            <div class="contact-icon">💬</div>
+            <div>
+              <strong>WhatsApp</strong>
+              <a href="https://wa.me/923001234567" target="_blank">Chat with us →</a>
+            </div>
+          </div>
+          <div class="contact-block">
+            <div class="contact-icon">📧</div>
+            <div>
+              <strong>Email</strong>
+              <a href="mailto:hello@clansites.com">hello@clansites.com</a>
+            </div>
+          </div>
+          <div class="contact-block">
+            <div class="contact-icon">🌐</div>
+            <div>
+              <strong>Worldwide</strong>
+              <span>We work with clients globally</span>
+            </div>
+          </div>
+          <div class="limited-slots">
+            ⚠️ <strong>Only 5 slots left this month!</strong> Book now before we're full.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FINAL CTA -->
+  <section class="final-cta">
+    <div class="cta-3d-bg" id="ctaBg"></div>
+    <div class="container" style="position:relative;z-index:2">
+      <h2>Book Your Website Today</h2>
+      <p>Join 150+ businesses that chose ClanSites and never looked back.</p>
+      <div class="hero-ctas">
+        <a href="https://wa.me/923001234567" target="_blank" class="btn btn-white" id="cta-whatsapp">WhatsApp Us</a>
+        <a href="mailto:hello@clansites.com" class="btn btn-whatsapp" id="cta-email">Email Us</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="logo">
+        <div class="logo-icon">
+          <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="100" height="100" rx="16" fill="#0066FF"/>
+            <line x1="52" y1="18" x2="52" y2="82" stroke="white" stroke-width="3" stroke-linecap="round"/>
+            <path d="M68 24 L36 50 L68 76" stroke="white" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+          </svg>
+        </div>
+        <span class="logo-text" style="color:white">ClanSites</span>
+      </div>
+      <p style="color:#888;font-size:0.9rem">© 2025 ClanSites. All rights reserved. Built to convert.</p>
+    </div>
+  </footer>
+
+  <!-- STICKY WHATSAPP -->
+  <a href="https://wa.me/923001234567" target="_blank" class="sticky-wa" id="stickyWA" aria-label="WhatsApp">
+    <svg viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+    </svg>
+  </a>
+
+  <script src="main.js"></script>
+</body>
+</html>

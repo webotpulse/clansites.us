@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog — ClanSites</title>
+  <meta name="description" content="Web design tips, conversion strategies, and business growth insights from the ClanSites team." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="pages.css" />
+</head>
+<body>
+
+  <nav class="nav scrolled" id="navbar">
+    <div class="nav-inner">
+      <a class="logo" href="index.html">
+        <div class="logo-icon">
+          <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="100" height="100" rx="16" fill="#0066FF"/>
+            <line x1="52" y1="18" x2="52" y2="82" stroke="white" stroke-width="3" stroke-linecap="round"/>
+            <path d="M68 24 L36 50 L68 76" stroke="white" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+          </svg>
+        </div>
+        <span class="logo-text">ClanSites</span>
+      </a>
+      <div class="nav-links">
+        <a href="index.html#services">Services</a>
+        <a href="index.html#trust">Reviews</a>
+        <a href="case-studies.html">Case Studies</a>
+        <a href="blog.html" class="nav-active">Blog</a>
+        <a href="index.html#about">About</a>
+        <a href="index.html#contact">Contact</a>
+      </div>
+      <a href="index.html#contact" class="btn btn-nav">Get Started</a>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="index.html#services">Services</a>
+      <a href="index.html#trust">Reviews</a>
+      <a href="case-studies.html">Case Studies</a>
+      <a href="blog.html" class="nav-active">Blog</a>
+      <a href="index.html#about">About</a>
+      <a href="index.html#contact">Contact</a>
+      <a href="index.html#contact" class="btn btn-primary" style="text-align:center">Get Started</a>
+    </div>
+  </nav>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero">
+    <div class="container">
+      <div class="section-label">Insights & Tips</div>
+      <h1 class="page-hero-title">The ClanSites Blog</h1>
+      <p class="page-hero-sub">Web design, conversion strategies, and practical growth advice for business owners.</p>
+    </div>
+  </section>
+
+  <!-- BLOG FILTER -->
+  <section class="blog-filter-bar">
+    <div class="container">
+      <div class="filter-tabs">
+        <button class="filter-tab active" data-cat="all">All Posts</button>
+        <button class="filter-tab" data-cat="conversion">Conversion</button>
+        <button class="filter-tab" data-cat="design">Design</button>
+        <button class="filter-tab" data-cat="seo">SEO</button>
+        <button class="filter-tab" data-cat="mobile">Mobile</button>
+        <button class="filter-tab" data-cat="business">Business</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURED POST -->
+  <main class="page-main">
+    <div class="container">
+
+      <div class="blog-featured" data-cat="conversion">
+        <div class="featured-text">
+          <div class="blog-meta">
+            <span class="blog-cat conversion">Conversion</span>
+            <span class="blog-date">April 28, 2025</span>
+            <span class="blog-read">8 min read</span>
+          </div>
+          <h2>Why Your Business Website Is Losing You Money Every Day</h2>
+          <p>A slow, unclear, or ugly website doesn't just fail to convert — it actively costs you business. Here's how to diagnose the problem and fix it fast.</p>
+          <a href="#" class="btn btn-primary">Read Article</a>
+        </div>
+        <div class="featured-visual">
+          <div class="blog-illustration conversion-ill">
+            <div class="ill-browser">
+              <div class="ill-bar"><span></span><span></span><span></span></div>
+              <div class="ill-content">
+                <div class="ill-h"></div>
+                <div class="ill-p"></div>
+                <div class="ill-p short"></div>
+                <div class="ill-btn"></div>
+                <div class="ill-arrow">↑ 320% conversions</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Blog Grid -->
+      <div class="blog-grid">
+
+        <article class="blog-card" data-cat="design">
+          <div class="blog-card-visual design-v">
+            <div class="bv-icon">🎨</div>
+          </div>
+          <div class="blog-card-body">
+            <div class="blog-meta">
+              <span class="blog-cat design">Design</span>
+              <span class="blog-date">April 22, 2025</span>
+            </div>
+            <h3>5 Design Mistakes That Kill Conversions</h3>
+            <p>Too many fonts, bad contrast, hero sections that say nothing. Here are the most common design mistakes that make visitors leave immediately.</p>
+            <a href="#" class="blog-read-link">Read More →</a>
+          </div>
+        </article>
+
+        <article class="blog-card" data-cat="mobile">
+          <div class="blog-card-visual mobile-v">
+            <div class="bv-icon">📱</div>
+          </div>
+          <div class="blog-card-body">
+            <div class="blog-meta">
+              <span class="blog-cat mobile">Mobile</span>
+              <span class="blog-date">April 18, 2025</span>
+            </div>
+            <h3>80% of Your Visitors Are on Mobile — Is Your Site Ready?</h3>
+            <p>If your website isn't built mobile-first, you're losing the majority of your potential customers before they even read your headline.</p>
+            <a href="#" class="blog-read-link">Read More →</a>
+          </div>
+        </article>
+
+        <article class="blog-card" data-cat="seo">
+          <div class="blog-card-visual seo-v">
+            <div class="bv-icon">🔍</div>
+          </div>
+          <div class="blog-card-body">
+            <div class="blog-meta">
+              <span class="blog-cat seo">SEO</span>
+              <span class="blog-date">April 14, 2025</span>
+            </div>
+            <h3>How to Rank on Google Without Paying for Ads</h3>
+            <p>Organic search traffic is free and high-intent. Here's a beginner-friendly guide to getting your business found on Google without a big ad budget.</p>
+            <a href="#" class="blog-read-link">Read More →</a>
+          </div>
+        </article>
+
+        <article class="blog-card" data-cat="conversion">
+          <div class="blog-card-visual conv-v">
+            <div class="bv-icon">⚡</div>
+          </div>
+          <div class="blog-card-body">
+            <div class="blog-meta">
+              <span class="blog-cat conversion">Conversion</span>
+              <span class="blog-date">April 10, 2025</span>
+            </div>
+            <h3>The Anatomy of a Perfect Hero Section</h3>
+            <p>The first 5 seconds decide if visitors stay or leave. Learn how to write a headline, subheadline, and CTA that makes people act immediately.</p>
+            <a href="#" class="blog-read-link">Read More →</a>
+          </div>
+        </article>
+
+        <article class="blog-card" data-cat="business">
+          <div class="blog-card-visual biz-v">
+            <div class="bv-icon">📈</div>
+          </div>
+          <div class="blog-card-body">
+            <div class="blog-meta">
+              <span class="blog-cat business">Business</span>
+              <span class="blog-date">April 5, 2025</span>
+            </div>
+            <h3>How a Simple Website Doubled a Clinic's Appointments</h3>
+            <p>It wasn't complicated. A clear headline, WhatsApp button, and doctor profile — that's all it took to triple appointment bookings for a dental clinic.</p>
+            <a href="#" class="blog-read-link">Read More →</a>
+          </div>
+        </article>
+
+        <article class="blog-card" data-cat="design">
+          <div class="blog-card-visual design-v2">
+            <div class="bv-icon">🌙</div>
+          </div>
+          <div class="blog-card-body">
+            <div class="blog-meta">
+              <span class="blog-cat design">Design</span>
+              <span class="blog-date">March 30, 2025</span>
+            </div>
+            <h3>Dark Mode Websites: When to Use Them and When to Avoid</h3>
+            <p>Dark mode is trending — but it's not right for every brand. Here's a practical guide on when dark themes help conversions and when they hurt them.</p>
+            <a href="#" class="blog-read-link">Read More →</a>
+          </div>
+        </article>
+
+      </div>
+
+      <!-- Newsletter -->
+      <div class="newsletter-box">
+        <h3>Get Weekly Insights</h3>
+        <p>No fluff. Just practical web design and conversion tips for business owners.</p>
+        <form class="newsletter-form" id="newsletterForm">
+          <input type="email" placeholder="your@email.com" required />
+          <button type="submit" class="btn btn-primary">Subscribe</button>
+        </form>
+      </div>
+
+    </div>
+  </main>
+
+  <section class="final-cta">
+    <div class="cta-3d-bg" id="ctaBg"></div>
+    <div class="container" style="position:relative;z-index:2">
+      <h2>Ready to Build Your Website?</h2>
+      <p>Stop reading — start converting. Let's build your site this week.</p>
+      <div class="hero-ctas">
+        <a href="https://wa.me/923001234567" target="_blank" class="btn btn-white">WhatsApp Us</a>
+        <a href="mailto:hello@clansites.com" class="btn btn-whatsapp">Email Us</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a class="logo" href="index.html">
+        <div class="logo-icon">
+          <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="100" height="100" rx="16" fill="#0066FF"/>
+            <line x1="52" y1="18" x2="52" y2="82" stroke="white" stroke-width="3" stroke-linecap="round"/>
+            <path d="M68 24 L36 50 L68 76" stroke="white" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+          </svg>
+        </div>
+        <span class="logo-text" style="color:white">ClanSites</span>
+      </a>
+      <p style="color:#888;font-size:0.9rem">© 2025 ClanSites. All rights reserved. Built to convert.</p>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/923001234567" target="_blank" class="sticky-wa" aria-label="WhatsApp">
+    <svg viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+    </svg>
+  </a>
+
+  <script>
+    const hamburger = document.getElementById('hamburger');
+    const mobileMenu = document.getElementById('mobileMenu');
+    hamburger.addEventListener('click', () => mobileMenu.classList.toggle('open'));
+
+    // Filter tabs
+    const tabs = document.querySelectorAll('.filter-tab');
+    tabs.forEach(tab => {
+      tab.addEventListener('click', () => {
+        tabs.forEach(t => t.classList.remove('active'));
+        tab.classList.add('active');
+        const cat = tab.dataset.cat;
+        document.querySelectorAll('.blog-card, .blog-featured').forEach(card => {
+          if (cat === 'all' || card.dataset.cat === cat) {
+            card.style.display = '';
+            setTimeout(() => card.style.opacity = '1', 10);
+          } else {
+            card.style.opacity = '0';
+            setTimeout(() => card.style.display = 'none', 200);
+          }
+        });
+      });
+    });
+
+    // Newsletter
+    document.getElementById('newsletterForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+      this.innerHTML = '<p style="color:#00CC66;font-weight:600;padding:12px 0">You\'re subscribed! Check your inbox.</p>';
+    });
+
+    // CTA bg
+    const ctaBg = document.getElementById('ctaBg');
+    for (let i = 0; i < 8; i++) {
+      const orb = document.createElement('div');
+      const size = Math.random() * 200 + 80;
+      orb.style.cssText = `position:absolute;width:${size}px;height:${size}px;background:radial-gradient(circle,rgba(255,255,255,0.07),transparent 70%);border-radius:50%;left:${Math.random()*100}%;top:${Math.random()*100}%;pointer-events:none;`;
+      ctaBg.appendChild(orb);
+    }
+  </script>
+</body>
+</html>
